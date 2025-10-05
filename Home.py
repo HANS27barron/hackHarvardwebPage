@@ -60,7 +60,7 @@ for i, col in enumerate(cols):
 st.markdown("---")
 
 st.markdown("<h3 style='text-align:center;'> Watch Flipply in Action</h3>", unsafe_allow_html=True)
-st.text("https://youtube.com/shorts/Uk-AElb4aac?feature=share")
+st.video("https://youtube.com/shorts/Uk-AElb4aac?feature=share")
 
 st.markdown("---")
 
