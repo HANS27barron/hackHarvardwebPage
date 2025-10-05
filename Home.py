@@ -38,8 +38,10 @@ st.markdown("---")
 st.markdown("<h3 style='text-align:center;'> How Flippy Works</h3>", unsafe_allow_html=True)
 st.markdown("""
 1. Take a picture or upload an image of the item you want to sell  
-2. Flipply analyzes and predicts its best selling price  
-3. Post it on eBay and start selling faster and easier
+2. Flipply sends the image to Gemini to analyze it and give a description about it, such as brand and condition
+4. E-Bay API is used to predict its best selling price  
+5. The Gemini-given information can still be edited by the user to prevent unchangable errors
+3. Post the item on eBay and other e-commerce platfroms to start selling faster and easier
 """)
 st.markdown("[View our GitHub Repository](https://github.com/m3l0x42/HackHarvard/tree/main) 🔗")
 
@@ -58,7 +60,7 @@ for i, col in enumerate(cols):
 st.markdown("---")
 
 st.markdown("<h3 style='text-align:center;'> Watch Flipply in Action</h3>", unsafe_allow_html=True)
-st.text("youtube video link here")
+st.text("https://youtube.com/shorts/Uk-AElb4aac?feature=share")
 
 st.markdown("---")
 
