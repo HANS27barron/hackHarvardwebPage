@@ -16,6 +16,25 @@ st.markdown("""
 
 st.markdown("---")
 
+
+st.markdown("<h3 style='text-align:center;'> What Flipply Solves</h3>", unsafe_allow_html=True)
+col1a, col2a, col3a = st.columns(3)
+
+with col1a:
+    st.markdown("<h4 style='text-align:center;'>🗑️ Home Clutter</h4>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align:center;'>54% of Americans are overwhelmed by the amount of clutter they have, and 78% have no idea what to do with it. Flipply simplifies the long process of researching the right price and description by just snapping a pic.</h6>", unsafe_allow_html=True)
+
+with col2a:
+    st.markdown("<h4 style='text-align:center;'>📱 E-Commerce</h4>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align:center;'>E-Bay is considerbly the most important e-commerce platform for second-hand products. Important to consider that $27 trillion USD  sales in 2022E-bay: Considerably the most important second-hand e-commerce company.</h6>", unsafe_allow_html=True)
+
+with col3a:
+    st.markdown("<h4 style='text-align:center;'>♻️ Sustainability</h4>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align:center;'>Giving a second-use to all those items laying in the garage not only extends its lifecycle, but empowers a more sustainable future</h6>", unsafe_allow_html=True)
+
+
+
+st.markdown("---")
 st.markdown("<h3 style='text-align:center;'> How Flippy Works</h3>", unsafe_allow_html=True)
 st.markdown("""
 1. Take a picture or upload an image of the item you want to sell  
